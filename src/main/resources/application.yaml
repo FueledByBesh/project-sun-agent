@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: project-sun-agent
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: 8080
