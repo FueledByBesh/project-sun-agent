@@ -1,7 +1,7 @@
 package project.sun.agent.exception;
 
 import lombok.Getter;
-import project.sun.agent.rest.dto.response.RestResponseMessage;
+import project.sun.agent.controller.rest.dto.response.RestResponseMessage;
 //import project.sun.agent.agent.interfaces.rest.response.RestResponseMessage;
 
 @Getter

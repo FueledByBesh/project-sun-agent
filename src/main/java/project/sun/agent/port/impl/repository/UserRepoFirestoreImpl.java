@@ -1,4 +1,4 @@
-package project.sun.agent.infrastructure.repository;
+package project.sun.agent.port.impl.repository;
 
 import project.sun.agent.model.user.User;
 import project.sun.agent.port.repository.UserRepository;

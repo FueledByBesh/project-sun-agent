@@ -1,4 +1,4 @@
-package project.sun.agent.rest.dto.response;
+package project.sun.agent.controller.rest.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package project.sun.agent.port;
+package project.sun.agent.port.repository;
 
 import org.springframework.stereotype.Repository;
 

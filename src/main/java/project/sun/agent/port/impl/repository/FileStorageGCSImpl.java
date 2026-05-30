@@ -1,6 +1,6 @@
-package project.sun.agent.infrastructure;
+package project.sun.agent.port.impl.repository;
 
-import project.sun.agent.port.FileStorage;
+import project.sun.agent.port.repository.FileStorage;
 
 public class FileStorageGCSImpl implements FileStorage {
     @Override

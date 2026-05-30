@@ -13,11 +13,4 @@ public class Agent {
     private String name;
     private String prompt;
 
-    public String createAgent() {
-        return "Not implemented";
-    }
-
-    private String createPrompt() {
-        return "Not implemented";
-    }
 }

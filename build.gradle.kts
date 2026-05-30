@@ -11,7 +11,7 @@ description = "project-sun-agent"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion = JavaLanguageVersion.of(23)
     }
 }
 graalvmNative {
