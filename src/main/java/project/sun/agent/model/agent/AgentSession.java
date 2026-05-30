@@ -10,17 +10,17 @@ import java.util.UUID;
 
 @Builder
 @Getter
-public class Session {
+public class AgentSession {
 
     private UUID id;
-    private Agent agent;
+    private AgentProfile agent;
     private Instant startTime;
     private String systemPrompt;
     private List<ChatMessage> context;
     private Long tokensUsed;
 
-    public static Session create(Agent agent) {
-        return Session.builder().agent(agent).startTime(Instant.now()).build();
+    public static AgentSession create(AgentProfile agent) {
+        return AgentSession.builder().agent(agent).startTime(Instant.now()).build();
     }
 
     public boolean addMessageAndCheckIfSummaryNeeded(ChatMessage message){
