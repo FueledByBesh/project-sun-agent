@@ -1,1 +1,1 @@
-rootProject.name = "agent"
+rootProject.name = "project-sun-agent"

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class AgenticFlowService {
 
-    private final AgentService agentService;
+    private final AgentFactory agentFactory;
 
     public void act(AgentSession session){
 

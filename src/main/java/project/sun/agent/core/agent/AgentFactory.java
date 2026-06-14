@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
-public class AgentService {
+public class AgentFactory {
 
     private final AgentRepository agentRepo;
 
