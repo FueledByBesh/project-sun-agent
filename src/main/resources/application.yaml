@@ -12,3 +12,7 @@ logging:
     root: info
   file:
     name: logs/server.log
+
+llm:
+  gemini:
+    api-key: ${GEMINI_API_KEY}

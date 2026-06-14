@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import project.sun.agent.exception.rest.NotImplementedError;
-import project.sun.agent.controller.rest.dto.response.RestResponseMessage;
+import project.sun.agent.api.rest.dto.response.RestResponseMessage;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
